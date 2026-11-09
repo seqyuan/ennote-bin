@@ -19,7 +19,8 @@ on:
         required: true
 
 permissions:
-  contents: read
+  # write: the last step records the source revision on the release notes.
+  contents: write
   id-token: write
   attestations: write
 
